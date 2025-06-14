@@ -115,7 +115,10 @@ fi
 
 export PATH="$PATH:/home/jeffrey/DEVtools/flutter/bin"
 export PATH="$PATH:/opt/android-studio/bin"
-export PATH="$PATH:WINEDLLOVERRIDES=\"version=n,b\""
+export PATH="$PATH:/home/jeffrey/.cargo/bin"
+export PATH=$PATH:/usr/local/go/bin
+export GOPATH=$HOME/DEVtools/go
+export PATH=$PATH:$GOPATH/bin
 export CHROME_EXECUTABLE=/usr/bin/chromium
 
 export PATH=$PATH:/home/jeffrey/.spicetify
